@@ -1,0 +1,19 @@
+current directory: /home/hisashi/projects/unicorn_sample/vendor/bundle/ruby/2.3.0/gems/byebug-9.0.0/ext/byebug
+/home/hisashi/.rbenv/versions/2.3.3/bin/ruby -r ./siteconf20161220-18935-1kvsn5t.rb extconf.rb
+creating Makefile
+
+current directory: /home/hisashi/projects/unicorn_sample/vendor/bundle/ruby/2.3.0/gems/byebug-9.0.0/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /home/hisashi/projects/unicorn_sample/vendor/bundle/ruby/2.3.0/gems/byebug-9.0.0/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling threads.c
+compiling locker.c
+compiling byebug.c
+compiling context.c
+linking shared-object byebug/byebug.so
+
+current directory: /home/hisashi/projects/unicorn_sample/vendor/bundle/ruby/2.3.0/gems/byebug-9.0.0/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20161220-18935-1eyd69v/byebug
